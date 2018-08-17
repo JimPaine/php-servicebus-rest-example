@@ -33,7 +33,7 @@ The parameters for this method are as follows
 
 This will generate a populated headers array, including the authorization header populated with a signed shared access signature.
 
-## Peek a message from the topc subscription
+## Peek a message from the topic subscription
 
 ```php
     $message = $serviceBusClient->peek($serviceBusRootUri.'subscriptions/'.$subscriptionName, $header);
